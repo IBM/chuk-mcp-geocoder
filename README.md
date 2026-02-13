@@ -59,7 +59,7 @@ pip install chuk-mcp-geocoder
 
 #### Option 1: Use the Public Server (Easiest)
 
-Connect to the hosted public server at `chuk-mcp-geocoder.fly.dev`:
+Connect to the hosted public server at `geocoder.chukai.io`:
 
 **MacOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 **Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
@@ -68,7 +68,7 @@ Connect to the hosted public server at `chuk-mcp-geocoder.fly.dev`:
 {
   "mcpServers": {
     "geocoder": {
-      "url": "https://chuk-mcp-geocoder.fly.dev/mcp"
+      "url": "https://geocoder.chukai.io/mcp"
     }
   }
 }
@@ -228,9 +228,9 @@ Follows the same 5-layer pattern as chuk-mcp-dem:
 
 ## Public Server
 
-A public instance is hosted at **chuk-mcp-geocoder.fly.dev** for easy access:
+A public instance is hosted at **geocoder.chukai.io** for easy access:
 
-- **URL**: `https://chuk-mcp-geocoder.fly.dev/mcp`
+- **URL**: `https://geocoder.chukai.io/mcp`
 - **Protocol**: MCP over HTTPS (Streamable HTTP)
 - **Free to use**: No API key required
 - **Always up-to-date**: Running the latest version
@@ -241,7 +241,7 @@ Simply add it to your Claude Desktop config:
 {
   "mcpServers": {
     "geocoder": {
-      "url": "https://chuk-mcp-geocoder.fly.dev/mcp"
+      "url": "https://geocoder.chukai.io/mcp"
     }
   }
 }
